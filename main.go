@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/sschaenz/XLSlite/cmd"
+)
 
 func main() {
-	fmt.Println("This is XLSlite")
+	cmd.Execute()
 }
